@@ -3,11 +3,12 @@ import "./App.css";
 // import ClickEvent from "./tuts/ClickEvent";
 // import State from "./tuts/State";
 // import Props from "./tuts/Props";
-import InputBox from "./tuts/InputBox";
+// import InputBox from "./tuts/InputBox";
+import HideShow from "./tuts/HideShow";
 function App() {
   return (
     <>
-      <InputBox />
+      <HideShow />
     </>
   );
 }
