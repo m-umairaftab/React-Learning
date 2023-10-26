@@ -1,12 +1,11 @@
 import "./App.css";
-import Component from "./tuts/Component";
+// import Component from "./tuts/Component";
+import ClickEvent from "./tuts/ClickEvent";
 
 function App() {
   return (
     <>
-      <Component />
-      <Component />
-      <Component />
+      <ClickEvent />
     </>
   );
 }
