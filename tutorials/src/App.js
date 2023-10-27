@@ -4,13 +4,14 @@ import "./App.css";
 // import State from "./tuts/State";
 // import Props from "./tuts/Props";
 // import InputBox from "./tuts/InputBox";
-// import HideShow from "./tuts/Hihow";deShow";
-import Toogle from "./tuts/Toogle";
+// import HideShow from "./tuts/Hihow";
+// import Toogle from "./tuts/Toogle";
+import Form from "./tuts/Form";
 function App() {
   return (
-    <>
-      <Toogle />
-    </>
+    <div className="App">
+      <Form />
+    </div>
   );
 }
 
