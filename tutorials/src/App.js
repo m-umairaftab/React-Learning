@@ -6,11 +6,12 @@ import "./App.css";
 // import InputBox from "./tuts/InputBox";
 // import HideShow from "./tuts/Hihow";
 // import Toogle from "./tuts/Toogle";
-import Form from "./tuts/Form";
+// import Form from "./tuts/Form";
+import LoginValidation from "./tuts/LoginValidation";
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LoginValidation />
     </div>
   );
 }
