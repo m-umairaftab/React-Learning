@@ -9,11 +9,12 @@ import "./App.css";
 // import Form from "./tuts/Form";
 // import LoginValidation from "./tuts/LoginValidation";
 // import UseEffect from "./tuts/UseEffect";
-import BootStrap from "./tuts/BootStrap";
+// import BootStrap from "./tuts/BootStrap";
+import Mapping from "./tuts/Mapping";
 function App() {
   return (
     <div className="App">
-      <BootStrap />
+      <Mapping />
     </div>
   );
 }
