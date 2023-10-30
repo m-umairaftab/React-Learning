@@ -10,11 +10,12 @@ import "./App.css";
 // import LoginValidation from "./tuts/LoginValidation";
 // import UseEffect from "./tuts/UseEffect";
 // import BootStrap from "./tuts/BootStrap";
-import Mapping from "./tuts/Mapping";
+// import Mapping from "./tuts/Mapping";
+import NestedList from "./tuts/NestedList";
 function App() {
   return (
     <div className="App">
-      <Mapping />
+      <NestedList />
     </div>
   );
 }
