@@ -7,11 +7,12 @@ import "./App.css";
 // import HideShow from "./tuts/Hihow";
 // import Toogle from "./tuts/Toogle";
 // import Form from "./tuts/Form";
-import LoginValidation from "./tuts/LoginValidation";
+// import LoginValidation from "./tuts/LoginValidation";
+import UseEffect from "./tuts/UseEffect";
 function App() {
   return (
     <div className="App">
-      <LoginValidation />
+      <UseEffect />
     </div>
   );
 }
