@@ -8,11 +8,12 @@ import "./App.css";
 // import Toogle from "./tuts/Toogle";
 // import Form from "./tuts/Form";
 // import LoginValidation from "./tuts/LoginValidation";
-import UseEffect from "./tuts/UseEffect";
+// import UseEffect from "./tuts/UseEffect";
+import BootStrap from "./tuts/BootStrap";
 function App() {
   return (
     <div className="App">
-      <UseEffect />
+      <BootStrap />
     </div>
   );
 }
