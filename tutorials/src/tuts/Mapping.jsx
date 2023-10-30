@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Table } from "react-bootstrap";
 function Mapping() {
   const students = [
     {
@@ -17,20 +17,26 @@ function Mapping() {
   return (
     <div>
       <h1>Handle array with list</h1>
-      <table border="1">
-        <tr>
-          <td>Name</td>
-          <td>Email</td>
-          <td>Contact</td>
-        </tr>
-        {students.map((data) => (
+      <Table striped variant="dark">
+        <thead>
           <tr>
-            <td>{data.name}</td>
-            <td>{data.email}</td>
-            <td>{data.contact}</td>
+            <td>Serial No.</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Contact</td>
           </tr>
-        ))}
-      </table>
+        </thead>
+        <tbody>
+          {students.map((data, i) => (
+            <tr key={i}>
+              <td>{i + 1}</td>
+              <td>{data.name}</td>
+              <td>{data.email}</td>
+              <td>{data.contact}</td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
     </div>
   );
 }
