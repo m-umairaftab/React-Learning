@@ -12,11 +12,12 @@ import "./App.css";
 // import BootStrap from "./tuts/BootStrap";
 // import Mapping from "./tuts/Mapping";
 // import NestedList from "./tuts/NestedList";
-import UseMemo from "./tuts/UseMemo";
+// import UseMemo from "./tuts/UseMemo";
+import UseRef from "./tuts/UseRef";
 function App() {
   return (
     <div className="App">
-      <UseMemo />
+      <UseRef />
     </div>
   );
 }
