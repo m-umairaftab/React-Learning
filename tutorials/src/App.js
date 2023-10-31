@@ -11,11 +11,12 @@ import "./App.css";
 // import UseEffect from "./tuts/UseEffect";
 // import BootStrap from "./tuts/BootStrap";
 // import Mapping from "./tuts/Mapping";
-import NestedList from "./tuts/NestedList";
+// import NestedList from "./tuts/NestedList";
+import UseMemo from "./tuts/UseMemo";
 function App() {
   return (
     <div className="App">
-      <NestedList />
+      <UseMemo />
     </div>
   );
 }
