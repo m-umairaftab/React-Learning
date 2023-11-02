@@ -14,11 +14,12 @@ import "./App.css";
 // import NestedList from "./tuts/NestedList";
 // import UseMemo from "./tuts/UseMemo";
 // import UseRef from "./tuts/UseRef";
-import ControlledComponent from "./tuts/ControlledComponent";
+// import ControlledComponent from "./tuts/ControlledComponent";
+import Hoc from "./tuts/Hoc";
 function App() {
   return (
     <div className="App">
-      <ControlledComponent />
+      <Hoc />
     </div>
   );
 }
