@@ -15,11 +15,12 @@ import "./App.css";
 // import UseMemo from "./tuts/UseMemo";
 // import UseRef from "./tuts/UseRef";
 // import ControlledComponent from "./tuts/ControlledComponent";
-import Hoc from "./tuts/Hoc";
+// import Hoc from "./tuts/Hoc";
+import BootStrap from "./tuts/BootStrap";
 function App() {
   return (
     <div className="App">
-      <Hoc />
+      <BootStrap />
     </div>
   );
 }

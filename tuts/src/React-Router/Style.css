@@ -1,0 +1,17 @@
+.navbar {
+    text-align: right;
+}
+
+.navbar li {
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar-link:hover {
+    color: green;
+}
