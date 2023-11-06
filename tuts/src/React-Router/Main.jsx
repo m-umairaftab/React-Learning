@@ -10,6 +10,7 @@ import About from "./About";
 import NavBar from "./NavBar";
 import Page404 from "./Page404";
 import User from "./User";
+import Filter from "./Filter";
 const Main = () => {
   return (
     <>
@@ -57,6 +58,15 @@ const Main = () => {
             element={
               <h1>
                 <User />
+              </h1>
+            }
+          />
+          <Route
+            path="/filter"
+            element={
+              <h1>
+                {" "}
+                <Filter />{" "}
               </h1>
             }
           />
