@@ -11,6 +11,10 @@ import NavBar from "./NavBar";
 import Page404 from "./Page404";
 import User from "./User";
 import Filter from "./Filter";
+import Contact from "./Contact";
+import Company from "./Company";
+import Channel from "./Channel";
+import Other from "./Other";
 const Main = () => {
   return (
     <>
@@ -44,15 +48,11 @@ const Main = () => {
               </h1>
             }
           />
-          <Route
-            path="/contact"
-            element={
-              <h1>
-                {" "}
-                <Navigate to="/" />{" "}
-              </h1>
-            }
-          />
+          <Route path="/contact/" element={<Contact />}>
+            <Route path="company" element={<Company />} />
+            <Route path="channel" element={<Channel />} />
+            <Route path="other" element={<Other />} />
+          </Route>
           <Route
             path="/user/:name"
             element={
