@@ -1,7 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router";
 const Home = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  console.log(location);
   return (
     <div>
       Home

@@ -15,6 +15,8 @@ import Contact from "./Contact";
 import Company from "./Company";
 import Channel from "./Channel";
 import Other from "./Other";
+import Login from "./Login";
+import Protected from "./Protected";
 const Main = () => {
   return (
     <>
@@ -26,10 +28,11 @@ const Main = () => {
             element={
               <h1>
                 {" "}
-                <Home />{" "}
+                <Protected Component={Home} />{" "}
               </h1>
             }
           />
+          <Route path="/login" element={<Login />} />
           <Route
             path="/about"
             element={

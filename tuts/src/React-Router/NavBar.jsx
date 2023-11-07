@@ -35,6 +35,11 @@ const NavBar = () => {
             Filter
           </NavLink>
         </li>
+        <li>
+          <NavLink className="nav-bar-link" to="/login">
+            Login
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
