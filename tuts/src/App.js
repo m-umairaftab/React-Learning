@@ -1,12 +1,13 @@
 import "./App.css";
 // import Main from "./React-Router/Main";
 // import Fetch from "./React-Api/Fetch";
-import Prev_State from "./React-Api/Prev_State";
+// import Prev_State from "./tut/Prev_State";
+import StateWithObj from "./tut/StateWithObj";
 
 function App() {
   return (
     <div className="App">
-      <Prev_State />
+      <StateWithObj />
     </div>
   );
 }
