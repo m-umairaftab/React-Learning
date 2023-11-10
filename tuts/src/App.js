@@ -1,13 +1,11 @@
 import "./App.css";
-// import Main from "./React-Router/Main";
-// import Fetch from "./React-Api/Fetch";
-// import Prev_State from "./tut/Prev_State";
-import StateWithObj from "./tut/StateWithObj";
-
+import HomeContainer from "./React-Redux/Containers/HomeContainer";
+import HeaderContainer from "./React-Redux/Containers/HeaderContainer";
 function App() {
   return (
     <div className="App">
-      <StateWithObj />
+      <HeaderContainer />
+      <HomeContainer />
     </div>
   );
 }
