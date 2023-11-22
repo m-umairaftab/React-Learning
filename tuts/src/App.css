@@ -95,3 +95,34 @@ button.remove-cart-btn {
   border-radius: 50%;
   color: #fff;
 }
+
+.start {
+  background-color: green;
+  color: #fff;
+  margin: 20px;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.start:disabled {
+  background-color: gray;
+}
+
+.stop {
+  background-color: red;
+  color: #fff;
+  margin: 20px;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.reset {
+  background-color: orange;
+  color: #fff;
+  margin: 20px;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
